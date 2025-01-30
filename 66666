@@ -1,5 +1,4 @@
-local OrionLib =loadstring(game:HttpGet("
-https://raw.githubusercontent.com/10h-pack/UI/refs/heads/main/OrionLib"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/10h-pack/6/refs/heads/main/66666"))()
 
 local Window = OrionLib:MakeWindow({Name = "通用脚本", HidePremium = false, SaveConfig = true,IntroText = "通用脚本", ConfigFolder = "通用脚本"})
 
@@ -77,5 +76,3 @@ local about = Window:MakeTab({
 about:AddParagraph("作者","小吉祥")
 
 about:AddParagraph("QQ","1626509609")
-
-OrionLib:Init()
